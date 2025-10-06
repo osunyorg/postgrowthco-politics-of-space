@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 6
+  seconds: 18
   text: >-
     less than a minute
 contents:
@@ -91,6 +91,52 @@ contents:
 
         credit: >-
           
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Conference Organisers
+    slug: >-
+      conference-organisers
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Conference Organisers
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Federico Savini, University of Amsterdam<br>Silvio Cristiano, University of Florence<br>Sofia Greaves, OsloMet <br>Karl Krähmer, University of Turin<br>Filka Sekulova, University of Barcelona<br>Angelos Varvarousis, Autonomous University of Barcelona<br>Sarah Ware, Vienna University of Economics<br>Jin Xue, Norwegian University of Life Sciences<br><br>Artwork & Website © <a href="https://www.instagram.com/sofiagreaves" target="_blank" rel="noreferrer">Sofia Greaves <span class="sr-only">(external link)</span></a> </p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
 
 
 

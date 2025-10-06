@@ -9,6 +9,12 @@ en:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            degrowthpsconference@proton.me
+          value: >-
+            mailto:degrowthpsconference@proton.me
 
   taxonomies:
     administrator: administrators
