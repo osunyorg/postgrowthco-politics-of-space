@@ -1,7 +1,97 @@
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 6
   text: >-
     less than a minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Funded by
+    slug: >-
+      funded-by
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Funded by
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: image
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      text: >-
+        <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
+
+      image:
+        id: "ded968ec-6eec-4604-8c60-b998dc59ba54"
+        file: "ded968ec-6eec-4604-8c60-b998dc59ba54"
+
+        alt: >-
+          EU & ERC logos
+
+        credit: >-
+          
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Partners
+    slug: >-
+      partners
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Partners
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: image
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      text: >-
+        
+
+      image:
+        id: "ab83e0b4-8fcc-4f2a-8f38-fbcea1c89be3"
+        file: "ab83e0b4-8fcc-4f2a-8f38-fbcea1c89be3"
+
+        alt: >-
+          Postgrowth Cities Coalition logo
+
+        credit: >-
+          
+
+
+
 
