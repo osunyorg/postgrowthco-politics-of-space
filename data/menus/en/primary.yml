@@ -9,12 +9,12 @@ items:
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Logistics
-  target: "/logistics/"
+  target: "/logistics-1/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/logistics"
-  file: content/en/pages/logistics/_index.html
+  path: "/pages/logistics-1"
+  file: content/en/pages/logistics-1/_index.html
 - title: Submit
   target: "/contact-8/"
   kind: page
