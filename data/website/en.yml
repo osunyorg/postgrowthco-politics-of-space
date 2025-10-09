@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 22
+  seconds: 18
   text: >-
     less than a minute
 contents:
@@ -63,12 +63,10 @@ contents:
         value: >-
           Partners
         heading: 2
-      description: >-
-        <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
     data:
       layout: grid
       description: >-
-        <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
+        
 
       options:
         link: false
