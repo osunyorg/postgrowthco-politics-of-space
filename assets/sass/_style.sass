@@ -1,9 +1,18 @@
 .footer-contents
+    border-top: 1px solid $color-border
+    background: $color-background-alt
+    padding-bottom: $spacing-4
     .block-organizations
         @include media-breakpoint-up(desktop)
             .organizations.grid
                 grid-template-columns: repeat(4, 1fr)
         .organization
-            .media--logo
-                background: none
-                padding: 0
+            .organization-title
+                display: none
+            .media
+                &--logo
+                    background: none
+                    padding: 0
+                picture
+                    aspect-ratio: auto
+                    mix-blend-mode: multiply
