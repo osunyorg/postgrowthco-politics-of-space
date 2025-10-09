@@ -22,7 +22,7 @@ contents:
       description: >-
         <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
     data:
-      layout: grid
+      layout: large
       description: >-
         <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
 
@@ -64,7 +64,7 @@ contents:
           Partners
         heading: 2
     data:
-      layout: grid
+      layout: large
       description: >-
         
 
