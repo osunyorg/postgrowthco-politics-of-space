@@ -1,128 +1,112 @@
 default:
 contents_reading_time:
-  seconds: 18
+  seconds: 22
   text: >-
     less than a minute
 contents:
   - kind: block
-    template: title
+    template: organizations
     title: >-
       Funded by
     slug: >-
       funded-by
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           Funded by
-        heading: 2
+        heading: 3
+      description: >-
+        <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
     data:
-      layout: classic
-
-
-  - kind: block
-    template: image
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-    top:
-      active: false
-    data:
-      text: >-
+      layout: grid
+      description: >-
         <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
 
-      image:
-        id: "ded968ec-6eec-4604-8c60-b998dc59ba54"
-        file: "ded968ec-6eec-4604-8c60-b998dc59ba54"
+      options:
+        link: false
+        logo: true
+        summary: false
+        address: false
+        filters: false
 
-        alt: >-
-          EU & ERC logos
+      organizations:
+        - name: >-
+            European Research Council
 
-        credit: >-
-          
+          url: >-
+            
 
+          logo: "1f63c48d-4bf3-4687-b95a-5e4c4db8d92e"
+          external: true
+          role: >-
+            
+
+      quantity: 1
 
 
   - kind: block
-    template: title
+    template: organizations
     title: >-
       Partners
     slug: >-
       partners
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           Partners
-        heading: 2
+        heading: 3
+      description: >-
+        <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
     data:
-      layout: classic
+      layout: grid
+      description: >-
+        <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
 
+      options:
+        link: false
+        logo: true
+        summary: false
+        address: false
+        filters: false
 
-  - kind: block
-    template: image
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-    top:
-      active: false
-    data:
-      text: >-
-        
+      organizations:
+        - name: >-
+            Postgrowth Cities Coalition
 
-      image:
-        id: "ab83e0b4-8fcc-4f2a-8f38-fbcea1c89be3"
-        file: "ab83e0b4-8fcc-4f2a-8f38-fbcea1c89be3"
+          url: >-
+            
 
-        alt: >-
-          Postgrowth Cities Coalition logo
+          logo: "67398119-7f2e-4972-a7e7-01b15fbb0832"
+          external: true
+          role: >-
+            
 
-        credit: >-
-          
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Conference Organisers
-    slug: >-
-      conference-organisers
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Conference Organisers
-        heading: 2
-    data:
-      layout: classic
+      quantity: 1
 
 
   - kind: block
     template: chapter
     title: >-
-      
+      Conference Organisers
     slug: >-
-      
+      conference-organisers
     ranks:
       base: 3
+      self: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Conference Organisers
+        heading: 3
     data:
       layout: no_background
       text: >-
