@@ -1,13 +1,27 @@
 .footer-contents
     border-top: 1px solid $color-border
     background: $color-background-alt
-    padding-bottom: $spacing-4
+    padding-top: var(--grid-gutter)
+    padding-bottom: var(--grid-gutter)
+    p
+        @include small
+    @include media-breakpoint-up(desktop)
+        .blocks
+            padding-left: var(--grid-gutter)
+            padding-right: var(--grid-gutter)
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-gap: var(--grid-gutter) var(--grid-gutter)
+            .block
+                margin-top: 0
+                width: columns(4)
+                .container
+                    padding: 0
     .block-organizations
-        @include media-breakpoint-up(desktop)
-            .organizations.grid
-                grid-template-columns: repeat(4, 1fr)
+        .top
+            margin-bottom: 0
         .organization
-            .organization-title
+            .organization-content
                 display: none
             .media
                 &--logo
@@ -16,3 +30,11 @@
                 picture
                     aspect-ratio: auto
                     mix-blend-mode: multiply
+        &--large
+            article
+                .media
+                    margin-left: 0
+                    margin-right: 0
+                    img
+                        object-fit: contain
+                        
