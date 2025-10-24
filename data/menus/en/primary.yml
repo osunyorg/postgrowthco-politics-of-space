@@ -1,11 +1,6 @@
 ---
 title: Main menu
 items:
-- title: About
-  target: https://www.degrowthpsc.com/
-  kind: url
-  new_tab: false
-  children: []
 - title: Logistics
   target: "/logistics-1/"
   kind: page
