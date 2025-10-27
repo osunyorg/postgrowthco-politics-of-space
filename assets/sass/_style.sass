@@ -14,11 +14,8 @@ h1
         @include small
     @include media-breakpoint-up(desktop)
         .blocks
-            padding-left: var(--grid-gutter)
-            padding-right: var(--grid-gutter)
-            display: grid
-            grid-template-columns: repeat(3, 1fr)
-            grid-gap: var(--grid-gutter) var(--grid-gutter)
+            @include container
+            @include grid(3)
             .block
                 margin-top: 0
                 width: columns(4)
