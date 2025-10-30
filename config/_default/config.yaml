@@ -1,4 +1,6 @@
-theme: osuny
+theme: 
+  - osuny
+  - osuny-plugin-centered-footer
 _merge: deep
 params:
   breadcrumb:
@@ -9,7 +11,7 @@ params:
     active: true
   logo:
     header: '/assets/images/logo.svg'
-    footer: '/assets/images/logo-white.svg'
+    footer: '/assets/images/icon-white.svg'
   home:
     head:
       title: site
