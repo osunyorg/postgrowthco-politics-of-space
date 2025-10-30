@@ -9,10 +9,10 @@ items:
   path: "/pages/logistics-1"
   file: content/en/pages/logistics-1/_index.html
 - title: Submit
-  target: "/contact-8/"
+  target: "/submit/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/contact-8"
-  file: content/en/pages/contact-8/_index.html
+  path: "/pages/submit"
+  file: content/en/pages/submit/_index.html
 
