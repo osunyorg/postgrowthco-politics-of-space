@@ -10,6 +10,25 @@ h1
     .hero--no-margin 
         + .document-content
            margin-top: 0
+    .document-content
+        > .blocks
+            .block:first-child
+                margin-top: 0
+    .block-image.image-landscape
+        margin-bottom: 0
+        .image-landscape
+            position: relative
+            figcaption
+                position: absolute
+                right: 0
+                bottom: 0
+                background: $color-accent
+                padding: $spacing-1 $spacing-2
+                *
+                    color: white
+                    text-decoration-line: none
+        + .block-chapter--accent_background
+            margin-top: 0
 .hero
     min-height: auto
     border-bottom: 1px solid $color-border
