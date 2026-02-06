@@ -25,7 +25,6 @@ contents:
       layout: large
       description: >-
         <p>This conference is financially supported by the European Research Council, DECYCLE, Grant Award 101039545.</p>
-
       options:
         link: false
         logo: true
@@ -34,16 +33,12 @@ contents:
         filters: false
 
       organizations:
-        - name: >-
+        - 
+          name: >-
             European Research Council
-
-          url: >-
-            
 
           logo: "1f63c48d-4bf3-4687-b95a-5e4c4db8d92e"
           external: true
-          role: >-
-            
 
       quantity: 1
 
@@ -63,10 +58,9 @@ contents:
         value: >-
           Partners
         heading: 2
+
     data:
       layout: large
-      description: >-
-        
 
       options:
         link: false
@@ -76,16 +70,12 @@ contents:
         filters: false
 
       organizations:
-        - name: >-
+        - 
+          name: >-
             Postgrowth Cities Coalition
-
-          url: >-
-            
 
           logo: "dd8b98aa-9557-4b42-b793-4e5ab5052aca"
           external: true
-          role: >-
-            
 
       quantity: 1
 
@@ -105,20 +95,14 @@ contents:
         value: >-
           Conference Organisers
         heading: 2
+
     data:
       layout: no_background
       text: >-
         <p>Federico Savini, University of Amsterdam<br>Silvio Cristiano, University of Florence<br>Sofia Greaves, OsloMet <br>Karl Krähmer, University of Turin<br>Filka Sekulova, University of Barcelona<br>Angelos Varvarousis, Autonomous University of Barcelona<br>Sarah Ware, Vienna University of Economics<br>Jin Xue, Norwegian University of Life Sciences<br><br>Artwork & Website © <a href="https://www.instagram.com/sofiagreaves" target="_blank" rel="noreferrer">Sofia Greaves <span class="sr-only">(external link)</span></a> </p>
 
-      notes: >-
-        
 
 
-      alt: >-
-        
-
-      credit: >-
-        
 
 
 
