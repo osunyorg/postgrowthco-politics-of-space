@@ -15,10 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/contact-8/"
+from = "/contact-8/index.html"
 to = "/submit/"
 
 [[redirects]]
-from = "/logistics/"
+from = "/logistics/index.html"
 to = "/logistics-1/"
 
